@@ -5,7 +5,7 @@ secu=0
 
 secuYN=input("1. 암호화 2. 암호 해석 중 선택 : ")
 inFname=input("입력 파일명을 입력하세요 :")
-outFname-input("출력 파일명을 입력하세요 :")
+outFname=input("출력 파일명을 입력하세요 :")
 
 if secuYN=="1" :
     secu=100
@@ -24,7 +24,7 @@ while True:
     for i in range(0, len(inStr)) :
         ch=inStr[i]
         chNum=ord(ch)
-        chNum=chNume+secu
+        chNum=chNum+secu
         ch2=chr(chNum)
         outStr= outStr+ch2
 
